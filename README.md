@@ -1,6 +1,13 @@
+# react-simple-gtm
+Adding Google Tag Manager service to React App made easy
 
+### Installation
 
-### usage
+```
+npm install --save react-simple-gtm
+```
+
+### Usage
 in your app entrypoint (e.x. `index.jsx`)
 ```
 import TagProvider from 'react-simple-google-tag-manager';
@@ -34,3 +41,6 @@ MyAwesomeComponent.propTypes = {
 
 export default injectTag(MyAwesomeComponent);
 ```
+
+### License
+MIT
