@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.teonite.net:lpilatowski/react-simple-google-tag-manager.git"
+    "url": "https://github.com/teonite/react-simple-gtm"
   },
   "keywords": [
     "react",
