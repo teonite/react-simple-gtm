@@ -24,12 +24,12 @@
     "react-dom": "0.14.x || ^15.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "6.24.1",
     "babel-preset-react-app": "3.0.3"
   },
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "invariant": "^2.0.0"
+    "prop-types": "15.5.10",
+    "invariant": "2.0.0"
   },
   "babel": {
     "presets": [
