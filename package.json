@@ -1,6 +1,6 @@
 {
   "name": "react-simple-gtm",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Adding Google Tag Manager service to React App made easy",
   "main": "lib/index.js",
   "scripts": {
