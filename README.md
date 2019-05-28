@@ -10,7 +10,7 @@ npm install --save react-simple-gtm
 ### Usage
 in your app entrypoint (e.x. `index.jsx`)
 ```
-import TagProvider from 'react-simple-google-tag-manager';
+import TagProvider from 'react-simple-gtm';
 
 //...
 
@@ -27,7 +27,7 @@ ReactDOM.render(
 
 then, in your components
 ```
-import {injectTag, tagShape} from 'react-simple-google-tag-manager';
+import {injectTag, tagShape} from 'react-simple-gtm';
 
 const MyAwesomeComponent = ({tag}) => (
     <button onClick={() => tag.push('event', 'click_me_btn_clicked')}>

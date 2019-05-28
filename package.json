@@ -1,10 +1,10 @@
 {
   "name": "react-simple-gtm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adding Google Tag Manager service to React App made easy",
   "main": "lib/index.js",
   "scripts": {
-    "compile": "NODE_ENV=development babel src/ --out-dir lib/ -x '.js,.jsx'"
+    "install": "NODE_ENV=development babel src/ --out-dir lib/ -x '.js,.jsx'"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "react-dom": "0.14.x || ^15.0.0"
   },
   "devDependencies": {
-    "babel-cli": "6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-preset-react-app": "3.0.3"
   },
   "dependencies": {
