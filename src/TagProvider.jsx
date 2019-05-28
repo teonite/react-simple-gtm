@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import {tagShape} from './inject';
 import GTManager from './GTManager';
 
-class TagProvider extends React.Component {
+class c extends React.Component {
     getChildContext() {
-        return {gtm: new GTManager(this.props.gtmId)};
+        return {gtm: new GTManager(this.props.gtagId, this.props.gtmId)};
     }
 
     render() {
@@ -15,7 +15,8 @@ class TagProvider extends React.Component {
 
 TagProvider.propTypes = {
     children: PropTypes.any,
-    gtmId: PropTypes.string.isRequired,
+    gtagId: PropTypes.string,
+    gtmId: PropTypes.string,
 };
 
 TagProvider.childContextTypes = {

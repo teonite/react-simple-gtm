@@ -1,5 +1,5 @@
 # react-simple-gtm
-Adding Google Tag Manager service to React App made easy
+Adding Google Tag and Google Tag Manager service to React App made easy
 
 ### Installation
 
@@ -16,7 +16,7 @@ import TagProvider from 'react-simple-gtm';
 
 ReactDOM.render(
     // ... other providers
-    <TagProvider gtmId="<your_tracking_id">
+    <TagProvider gtagId="<your_gtag_tracking_id" gtmId="<yout_google_tag_manager_id>">
         // your application or router
     </TagProvider>
     // ...
